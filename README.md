@@ -32,3 +32,5 @@ The best way to execute scripts is with `uv run`:
 ```bash
 uv run python your_script.py
 ```
+
+a small change
