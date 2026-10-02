@@ -7,7 +7,7 @@ from akd_ext.tools.worldview.permalink import (
     WorldviewPermalinkTool,
 )
 
-from .cmr_umm_vis import (
+from .cmr import (
     LayerMapping,
     UMMVisLookupTool,
     UMMVisLookupToolConfig,

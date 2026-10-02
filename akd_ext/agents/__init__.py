@@ -33,6 +33,11 @@ from akd_ext.agents.ieso.worldview import (
     IESOWorldviewAgentConfig,
     IESOWorldviewAgentInputSchema,
     IESOWorldviewAgentOutputSchema,
+from akd_ext.agents.image_analyzer import (
+    ImageAnalyzerAgent,
+    ImageAnalyzerConfig,
+    ImageAnalyzerInputSchema,
+    ImageAnalyzerOutputSchema,
 )
 
 from akd_ext.agents.closed_loop.cm1 import (
@@ -96,6 +101,11 @@ __all__ = [
     "IESOWorldviewAgentConfig",
     "IESOWorldviewAgentInputSchema",
     "IESOWorldviewAgentOutputSchema",
+    # Image analyzer
+    "ImageAnalyzerAgent",
+    "ImageAnalyzerConfig",
+    "ImageAnalyzerInputSchema",
+    "ImageAnalyzerOutputSchema",
     # CM1-specialized agents
     "CM1CapabilityFeasibilityMapperAgent",
     "CM1CapabilityFeasibilityMapperConfig",
