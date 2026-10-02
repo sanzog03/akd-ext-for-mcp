@@ -20,6 +20,11 @@ from .code_search.repository_search import (
     RepositorySearchToolOutputSchema,
     RepositorySearchToolConfig,
 )
+from .pdf_parser import (
+    PDFParserTool,
+    PDFParserToolInputSchema,
+    PDFParserToolOutputSchema,
+)
 
 from .worldview import (
     LayerSpec,
@@ -63,6 +68,9 @@ __all__ = [
     "RepositorySearchToolInputSchema",
     "RepositorySearchToolOutputSchema",
     "RepositorySearchToolConfig",
+    "PDFParserTool",
+    "PDFParserToolInputSchema",
+    "PDFParserToolOutputSchema",
     "LayerSpec",
     "WorldviewPermalinkInputSchema",
     "WorldviewPermalinkOutputSchema",
