@@ -1,4 +1,4 @@
-"""CMR UMM-Vis lookup utilities."""
+"""CMR UMM-Vis lookup and Earthdata Search utilities."""
 
 from .ummvis_lookup import (
     LayerMapping,
@@ -8,11 +8,19 @@ from .ummvis_lookup import (
     UMMVisLookupToolOutputSchema,
 )
 
+from .earthdata_search import (
+    EarthdataSearchLandingPageInputSchema,
+    EarthdataSearchLandingPageOutputSchema,
+    EarthdataSearchLandingPageTool,
+)
+
 __all__ = [
     "LayerMapping",
     "UMMVisLookupTool",
     "UMMVisLookupToolConfig",
     "UMMVisLookupToolInputSchema",
     "UMMVisLookupToolOutputSchema",
+    "EarthdataSearchLandingPageInputSchema",
+    "EarthdataSearchLandingPageOutputSchema",
+    "EarthdataSearchLandingPageTool",
 ]
-
